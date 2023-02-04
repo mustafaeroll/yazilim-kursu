@@ -1,0 +1,46 @@
+.başlık {
+    background-color: rgb(233, 56, 50);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solbaşlık {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.profil {
+    margin-right: 45px;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+body {
+    background-color: rgb(255, 152, 152);
+}
+.sağbaşlik {
+    display: flex;
+    gap: 75px;
+}
+.sağbaşlik > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(35, 27, 43);
+}
+.asılkonu {
+    padding: 75px;
+
+}
+.elektrikçi {
+    border-radius: 50px;
+}
+.inşaatçı {
+    border-radius: 50px;
+}
+.kimyacı {
+    border-radius: 50px;
+}
+.makineci {
+    border-radius: 50px;
+}
